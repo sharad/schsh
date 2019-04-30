@@ -5,5 +5,13 @@
 ;; https://brennan.io/2015/01/16/write-a-shell-in-c/
 
 
-(display "hello world")
-(newline)
+
+(define (shell_loop)
+  (display "hello world")
+  (newline))
+
+
+(define (scsh)
+  (display "hello world")
+  (newline)
+  (shell_loop))
