@@ -15,3 +15,6 @@
   (display "hello world")
   (newline)
   (shell_loop))
+
+
+(scsh)
